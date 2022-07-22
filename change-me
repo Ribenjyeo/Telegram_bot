@@ -1,0 +1,228 @@
+2022-07-23 01:47:35.185  INFO 16752 --- [main] r.r.telegram_bot.TelegramBotApplication  : Starting TelegramBotApplication using Java 17.0.3.1 on WIN-QHH2TG258S8 with PID 16752 (C:\Program Files\JetBrains\JavaProjects\telegram_bot\target\classes started by Ribenjyeo in C:\Program Files\JetBrains\JavaProjects\telegram_bot)
+2022-07-23 01:47:35.187  INFO 16752 --- [main] r.r.telegram_bot.TelegramBotApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-23 01:47:35.505  INFO 16752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-23 01:47:35.516  INFO 16752 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2022-07-23 01:47:35.791  INFO 16752 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-07-23 01:47:35.795  INFO 16752 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-23 01:47:35.796  INFO 16752 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-23 01:47:35.880  INFO 16752 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-23 01:47:35.880  INFO 16752 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 670 ms
+2022-07-23 01:47:35.946  INFO 16752 --- [main] r.r.telegram_bot.config.DefaultDbConfig  : [db] настройки БД: [{"url":"jdbc:postgresql://localhost:5432/telegram_bot","driver":"org.postgresql.Driver","user":"postgres","password":"*****","poolSize":"10","minPoolSize":4,"maxPoolSize":10,"idleTimeout":0,"maxLifetime":0,"bulkSize":null,"h2Database":false}]
+2022-07-23 01:47:36.407 DEBUG 16752 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-23 01:47:36.437  WARN 16752 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Invalid mapping on handler class [ru.ribenjyeo.telegram_bot.controller.UsersController]: public java.util.List ru.ribenjyeo.telegram_bot.controller.UsersController.getIdeaList()
+2022-07-23 01:47:36.439  INFO 16752 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-23 01:47:36.448  INFO 16752 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-23 01:47:36.457 ERROR 16752 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Invalid mapping pattern detected: /${app.http.bot
+      ^
+Char '.' is not allowed in a captured variable name
+
+Action:
+
+Fix this pattern in your application or switch to the legacy parser implementation with 'spring.mvc.pathmatch.matching-strategy=ant_path_matcher'.
+
+2022-07-23 01:55:17.398  INFO 16436 --- [main] r.r.telegram_bot.TelegramBotApplication  : Starting TelegramBotApplication using Java 17.0.3.1 on WIN-QHH2TG258S8 with PID 16436 (C:\Program Files\JetBrains\JavaProjects\telegram_bot\target\classes started by Ribenjyeo in C:\Program Files\JetBrains\JavaProjects\telegram_bot)
+2022-07-23 01:55:17.400  INFO 16436 --- [main] r.r.telegram_bot.TelegramBotApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-07-23 01:55:17.718  INFO 16436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-07-23 01:55:17.727  INFO 16436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2022-07-23 01:55:18.005  INFO 16436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2022-07-23 01:55:18.010  INFO 16436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-23 01:55:18.010  INFO 16436 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-23 01:55:18.092  INFO 16436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-23 01:55:18.093  INFO 16436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 670 ms
+2022-07-23 01:55:18.159  INFO 16436 --- [main] r.r.telegram_bot.config.DefaultDbConfig  : [db] настройки БД: [{"url":"jdbc:postgresql://localhost:5432/telegram_bot","driver":"org.postgresql.Driver","user":"postgres","password":"*****","poolSize":"10","minPoolSize":4,"maxPoolSize":10,"idleTimeout":0,"maxLifetime":0,"bulkSize":null,"h2Database":false}]
+2022-07-23 01:55:18.611 DEBUG 16436 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-07-23 01:55:18.645 DEBUG 16436 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2022-07-23 01:55:18.658 DEBUG 16436 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2022-07-23 01:55:18.664 DEBUG 16436 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-07-23 01:55:18.707  INFO 16436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-23 01:55:18.800  INFO 16436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-23 01:55:18.957  INFO 16436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2022-07-23 01:55:18.965  INFO 16436 --- [main] r.r.telegram_bot.TelegramBotApplication  : Started TelegramBotApplication in 1.783 seconds (JVM running for 2.158)
+2022-07-23 01:55:28.439  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[/start]
+2022-07-23 01:55:28.508  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[/start]
+2022-07-23 01:55:28.508  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=команда: /start]
+2022-07-23 01:55:28.518  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] o.a.k.clients.producer.ProducerConfig    : ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [localhost:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2022-07-23 01:55:28.530  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] o.a.k.clients.producer.KafkaProducer     : [Producer clientId=producer-1] Instantiated an idempotent producer.
+2022-07-23 01:55:28.551  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] o.a.kafka.common.utils.AppInfoParser     : Kafka version: 3.1.1
+2022-07-23 01:55:28.551  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] o.a.kafka.common.utils.AppInfoParser     : Kafka commitId: 97671528ba54a138
+2022-07-23 01:55:28.551  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] o.a.kafka.common.utils.AppInfoParser     : Kafka startTimeMs: 1658530528550
+2022-07-23 01:55:28.682  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Resetting the last seen epoch of partition users-0 to 0 since the associated topicId changed from null to GdxZG998T16o8zwSmOiF5g
+2022-07-23 01:55:28.683  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.Metadata        : [Producer clientId=producer-1] Cluster ID: 4Zd4-fHgR4ih8hBS6xfmjw
+2022-07-23 01:55:28.684  INFO 16436 --- [kafka-producer-network-thread | producer-1] o.a.k.c.p.internals.TransactionManager   : [Producer clientId=producer-1] ProducerId set to 1 with epoch 0
+2022-07-23 01:55:35.195  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[hello]
+2022-07-23 01:55:35.260  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[hello]
+2022-07-23 01:55:35.261  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=мысль: hello]
+2022-07-23 01:55:35.275  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.t.repository.UserRepository          : insert(мысль: hello) result=1
+2022-07-23 01:55:51.474  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[test message]
+2022-07-23 01:55:51.545  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[test message]
+2022-07-23 01:55:51.546  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=мысль: test message]
+2022-07-23 01:55:51.547  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.t.repository.UserRepository          : insert(мысль: test message) result=1
+2022-07-23 01:56:00.129  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[/idea]
+2022-07-23 01:56:00.351  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[/idea]
+2022-07-23 01:56:00.351  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=команда: /idea]
+2022-07-23 01:56:27.936  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node -1 disconnected.
+2022-07-23 01:56:27.938  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:27.938  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Cancelled in-flight METADATA request with correlation id 8 due to node 0 being disconnected (elapsed time since creation: 0ms, elapsed time since send: 0ms, request timeout: 30000ms)
+2022-07-23 01:56:28.054  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:28.054  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:28.162  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:28.162  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:28.397  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:28.397  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:28.760  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:28.761  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:29.694  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:29.694  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:30.817  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:30.818  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:32.002  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:32.002  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:33.058  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:33.058  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:33.997  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:33.997  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:35.124  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:35.124  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:36.112  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:36.112  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:37.242  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:37.242  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:38.489  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:38.489  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:39.611  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:39.611  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:40.795  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:40.795  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:41.804  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:41.804  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:42.812  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:42.812  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:43.626  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:43.627  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:44.762  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:44.762  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:45.893  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:45.894  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:46.823  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:46.823  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:48.011  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:48.011  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:49.197  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:49.197  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:50.383  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:50.383  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:51.518  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:51.518  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:52.654  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:52.654  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:56:53.852  INFO 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Node 0 disconnected.
+2022-07-23 01:56:53.852  WARN 16436 --- [kafka-producer-network-thread | producer-1] org.apache.kafka.clients.NetworkClient   : [Producer clientId=producer-1] Connection to node 0 (/127.0.0.1:9092) could not be established. Broker may not be available.
+2022-07-23 01:57:06.251  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[new message]
+2022-07-23 01:57:06.391  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[new message]
+2022-07-23 01:57:06.391  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=мысль: new message]
+2022-07-23 01:57:06.395  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.t.repository.UserRepository          : insert(мысль: new message) result=1
+2022-07-23 01:57:16.137  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[/idea]
+2022-07-23 01:57:16.398  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[/idea]
+2022-07-23 01:57:16.399  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=команда: /idea]
+2022-07-23 02:00:08.397  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[new msg]
+2022-07-23 02:00:08.567  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[new msg]
+2022-07-23 02:00:08.567  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=мысль: new msg]
+2022-07-23 02:00:08.568  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.t.repository.UserRepository          : insert(мысль: new msg) result=1
+2022-07-23 02:00:10.506  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working onUpdateReceived, request text[/idea]
+2022-07-23 02:00:10.900  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.TelegramBot     : Working, text[/idea]
+2022-07-23 02:00:10.900  INFO 16436 --- [ribenjyeo_1_bot Telegram Executor] r.r.telegram_bot.service.Producer        : #### Producing message [user=команда: /idea]
